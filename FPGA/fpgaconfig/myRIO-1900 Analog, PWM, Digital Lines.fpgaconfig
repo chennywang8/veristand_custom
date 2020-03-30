@@ -1,0 +1,266 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="NI VeriStand FPGA DMA.xsl"?>
+<FPGADMAChannelData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NI VeriStand FPGA DMA.xsd">
+	<Version>2.0</Version>
+    <Bitfile>myRIO-1900.lvbitx</Bitfile>
+	<Categories>
+		<Category>
+			<Name>Input</Name>
+			<Description>This section contains all the inputs from the cRIO.  The inputs use modules NI-9215 in slot 1 and NI-9411 in slot 3.</Description>
+			<Category>
+				<Name>Analog</Name>
+				<Description>This section contains all the analog inputs from the cRIO.  The analog inputs use module NI-9215 in slot 1.</Description>
+				<Symbol>AI</Symbol>
+			</Category>
+			<Category>
+				<Name>Digital</Name>
+				<Description>This section contains all the digital inputs from the cRIO.  The digital inputs use module NI-9411 in slot 3.</Description>
+				<Symbol>DI</Symbol>
+			</Category>
+			<Category>
+				<Name>PWM</Name>
+				<Description>This section contains all the PWM inputs from the cRIO.  The PWM inputs use module NI-9411 in slot 3.</Description>
+				<Symbol>PWM In</Symbol>
+			</Category>
+		</Category>
+		<Category>
+			<Name>Output</Name>
+			<Description>This section contains all the outputs from the cRIO.  The outputs use modules NI-9263 in slot 2 and NI-9474 in slot 4.</Description>
+			<Category>
+				<Name>Analog</Name>
+				<Description>This section contains all the analog outputs from the cRIO.  The analog outputs use module NI-9263 in slot 2.</Description>
+				<Symbol>AO</Symbol>
+			</Category>
+			<Category>
+				<Name>Digital</Name>
+				<Description>This section contains all the digital outputs from the cRIO.  The digital outputs use module NI-9474 in slot 4.</Description>
+				<Symbol>DO</Symbol>
+			</Category>
+			<Category>
+				<Name>PWM</Name>
+				<Description>This section contains all the PWM outputs from the cRIO.  The PWM outputs use module NI-9474 in slot 4.</Description>
+				<Symbol>PWM Out</Symbol>
+			</Category>
+		</Category>
+	</Categories>
+	<DMA_Read>
+		<Packets>6</Packets>
+		<Packet>
+			<Void>
+				<Size>1</Size>
+				<!-- Late Status bit -->
+			</Void>
+		</Packet>
+		<Packet>
+			<Boolean>
+				<Name>DI0</Name>
+				<Description>Digital line DI0 on the NI-9411 in slot 3.</Description>
+				<Category>Input\Digital</Category>
+				<Symbol>DI</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DI1</Name>
+				<Description>Digital line DI1 on the NI-9411 in slot 3.</Description>
+				<Category>Input\Digital</Category>
+				<Symbol>DI</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DI2</Name>
+				<Description>Digital line DI2 on the NI-9411 in slot 3.</Description>
+				<Category>Input\Digital</Category>
+				<Symbol>DI</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DI3</Name>
+				<Description>Digital line DI3 on the NI-9411 in slot 3.</Description>
+				<Category>Input\Digital</Category>
+				<Symbol>DI</Symbol>
+			</Boolean>
+		</Packet>
+		<Packet>
+			<PWM>
+				<Name>PWM In 0</Name>
+				<Description>PWM input using digital line DI4 on the NI-9411 in slot 3.</Description>
+				<Category>Input\PWM</Category>
+				<Scale>100</Scale>
+				<Unit>%</Unit>
+				<Symbol>PWM In</Symbol>
+				<Parameters>
+					<U32>
+						<Name>Time Out [ms]</Name>
+						<ControlName>_PWM In 0 timeout</ControlName>
+						<InitialValue>10</InitialValue>
+						<Scale>107374.182375</Scale>
+					</U32>
+				</Parameters>
+			</PWM>
+		</Packet>
+		<Packet>
+			<PWM>
+				<Name>PWM In 1</Name>
+				<Description>PWM input using digital line DI5 on the NI-9411 in slot 3.</Description>
+				<Category>Input\PWM</Category>
+				<Scale>100</Scale>
+				<Unit>%</Unit>
+				<Symbol>PWM In</Symbol>
+				<Parameters>
+					<U32>
+						<Name>Time Out [ms]</Name>
+						<ControlName>_PWM In 1 timeout</ControlName>
+						<InitialValue>10</InitialValue>
+						<Scale>107374.182375</Scale>
+					</U32>
+				</Parameters>
+			</PWM>
+		</Packet>
+		<Packet>
+			<FXPI32>
+				<Name>AI0</Name>
+				<Description>Analog input channel AI0 on the NI-9215 in slot 1.</Description>
+				<Category>Input\Analog</Category>
+				<Unit>Volts</Unit>
+				<Symbol>AI</Symbol>
+				<FXPWL>20</FXPWL>
+				<FXPIWL>5</FXPIWL>
+			</FXPI32>
+			<FXPI32>
+				<Name>AI1</Name>
+				<Description>Analog input channel AI1 on the NI-9215 in slot 1.</Description>
+				<Category>Input\Analog</Category>
+				<Unit>Volts</Unit>
+				<Symbol>AI</Symbol>
+				<FXPWL>20</FXPWL>
+				<FXPIWL>5</FXPIWL>
+			</FXPI32>
+		</Packet>
+		<Packet>
+			<FXPI32>
+				<Name>AI2</Name>
+				<Description>Analog input channel AI2 on the NI-9215 in slot 1.</Description>
+				<Category>Input\Analog</Category>
+				<Unit>Volts</Unit>
+				<Symbol>AI</Symbol>
+				<FXPWL>20</FXPWL>
+				<FXPIWL>5</FXPIWL>
+			</FXPI32>
+			<FXPI32>
+				<Name>AI3</Name>
+				<Description>Analog input channel AI3 on the NI-9215 in slot 1.</Description>
+				<Category>Input\Analog</Category>
+				<Unit>Volts</Unit>
+				<Symbol>AI</Symbol>
+				<FXPWL>20</FXPWL>
+				<FXPIWL>5</FXPIWL>
+			</FXPI32>
+		</Packet>
+	</DMA_Read>
+	<DMA_Write>
+		<Packets>7</Packets>
+		<Packet>
+			<Boolean>
+				<Name>DO0</Name>
+				<Description>Digital line DO0 on the NI-9474 in slot 4.</Description>
+				<Category>Output\Digital</Category>
+				<Symbol>DO</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DO1</Name>
+				<Description>Digital line DO1 on the NI-9474 in slot 4.</Description>
+				<Category>Output\Digital</Category>
+				<Symbol>DO</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DO2</Name>
+				<Description>Digital line DO2 on the NI-9474 in slot 4.</Description>
+				<Category>Output\Digital</Category>
+				<Symbol>DO</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DO3</Name>
+				<Description>Digital line DO3 on the NI-9474 in slot 4.</Description>
+				<Category>Output\Digital</Category>
+				<Symbol>DO</Symbol>
+			</Boolean>
+		</Packet>
+		<Packet>
+			<PWM>
+				<Name>PWM Out 0</Name>
+				<Description>PWM output using digital line DO4 on the NI-9474 in slot 4.</Description>
+				<Category>Output\PWM</Category>
+				<Scale>100</Scale>
+				<Unit>%</Unit>
+				<Symbol>PWM Out</Symbol>
+			</PWM>
+		</Packet>
+		<Packet>
+			<PWM>
+				<Name>PWM Out 1</Name>
+				<Description>PWM output using digital line DO5 on the NI-9474 in slot 4.</Description>
+				<Category>Output\PWM</Category>
+				<Scale>100</Scale>
+				<Unit>%</Unit>
+				<Symbol>PWM Out</Symbol>
+			</PWM>
+		</Packet>
+		<Packet>
+			<PWM>
+				<Name>PWM Out 2</Name>
+				<Description>PWM output using digital line DO6 on the NI-9474 in slot 4.</Description>
+				<Category>Output\PWM</Category>
+				<Scale>100</Scale>
+				<Unit>%</Unit>
+				<Symbol>PWM Out</Symbol>
+			</PWM>
+		</Packet>
+		<Packet>
+			<PWM>
+				<Name>PWM Out 3</Name>
+				<Description>PWM output using digital line DO7 on the NI-9474 in slot 4.</Description>
+				<Category>Output\PWM</Category>
+				<Scale>100</Scale>
+				<Unit>%</Unit>
+				<Symbol>PWM Out</Symbol>
+			</PWM>
+		</Packet>
+		<Packet>
+			<FXPI32>
+				<Name>AO0</Name>
+				<Description>Analog output channel AO0 on the NI-9263 in slot 2.</Description>
+				<Category>Output\Analog</Category>
+				<Unit>Volts</Unit>
+				<Symbol>AO</Symbol>
+				<FXPWL>20</FXPWL>
+				<FXPIWL>5</FXPIWL>
+			</FXPI32>
+			<FXPI32>
+				<Name>AO1</Name>
+				<Description>Analog output channel AO1 on the NI-9263 in slot 2.</Description>
+				<Category>Output\Analog</Category>
+				<Unit>Volts</Unit>
+				<Symbol>AO</Symbol>
+				<FXPWL>20</FXPWL>
+				<FXPIWL>5</FXPIWL>
+			</FXPI32>
+		</Packet>
+		<Packet>
+			<FXPI32>
+				<Name>AO2</Name>
+				<Description>Analog output channel AO2 on the NI-9263 in slot 2.</Description>
+				<Category>Output\Analog</Category>
+				<Unit>Volts</Unit>
+				<Symbol>AO</Symbol>
+				<FXPWL>20</FXPWL>
+				<FXPIWL>5</FXPIWL>
+			</FXPI32>
+			<FXPI32>
+				<Name>AO3</Name>
+				<Description>Analog output channel AO3 on the NI-9263 in slot 2.</Description>
+				<Category>Output\Analog</Category>
+				<Unit>Volts</Unit>
+				<Symbol>AO</Symbol>
+				<FXPWL>20</FXPWL>
+				<FXPIWL>5</FXPIWL>
+			</FXPI32>
+		</Packet>
+	</DMA_Write>
+</FPGADMAChannelData>
