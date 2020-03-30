@@ -1614,12 +1614,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="NI VeriStand FPGA DMA IO.vi" Type="VI" URL="../NI VeriStand FPGA DMA IO.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="NI_VS FPGA Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/FPGA/NI_VS FPGA Support.lvlib"/>
-			</Item>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

@@ -54,25 +54,49 @@
 		<Packet>
 			<Boolean>
 				<Name>DI0</Name>
-				<Description>Digital line DI0 on the NI-9411 in slot 3.</Description>
+				<Description>Digital line DI0 on the myRIO-1900 in Connector A.</Description>
 				<Category>Input\Digital</Category>
 				<Symbol>DI</Symbol>
 			</Boolean>
 			<Boolean>
 				<Name>DI1</Name>
-				<Description>Digital line DI1 on the NI-9411 in slot 3.</Description>
+				<Description>Digital line DI1 on the myRIO-1900 in Connector A.</Description>
 				<Category>Input\Digital</Category>
 				<Symbol>DI</Symbol>
 			</Boolean>
 			<Boolean>
 				<Name>DI2</Name>
-				<Description>Digital line DI2 on the NI-9411 in slot 3.</Description>
+				<Description>Digital line DI2 on the myRIO-1900 in Connector A.</Description>
 				<Category>Input\Digital</Category>
 				<Symbol>DI</Symbol>
 			</Boolean>
 			<Boolean>
 				<Name>DI3</Name>
-				<Description>Digital line DI3 on the NI-9411 in slot 3.</Description>
+				<Description>Digital line DI3 on the myRIO-1900 in Connector A.</Description>
+				<Category>Input\Digital</Category>
+				<Symbol>DI</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DI4</Name>
+				<Description>Digital line DI4 on the myRIO-1900 in Connector A.</Description>
+				<Category>Input\Digital</Category>
+				<Symbol>DI</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DI5</Name>
+				<Description>Digital line DI5 on the myRIO-1900 in Connector A.</Description>
+				<Category>Input\Digital</Category>
+				<Symbol>DI</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DI6</Name>
+				<Description>Digital line DI6 on the myRIO-1900 in Connector A.</Description>
+				<Category>Input\Digital</Category>
+				<Symbol>DI</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DI7</Name>
+				<Description>Digital line DI7 on the myRIO-1900 in Connector A.</Description>
 				<Category>Input\Digital</Category>
 				<Symbol>DI</Symbol>
 			</Boolean>
@@ -159,25 +183,49 @@
 		<Packet>
 			<Boolean>
 				<Name>DO0</Name>
-				<Description>Digital line DO0 on the NI-9474 in slot 4.</Description>
+				<Description>Digital line DO0 on the myRIO-1900 in Connector C.</Description>
 				<Category>Output\Digital</Category>
 				<Symbol>DO</Symbol>
 			</Boolean>
 			<Boolean>
 				<Name>DO1</Name>
-				<Description>Digital line DO1 on the NI-9474 in slot 4.</Description>
+				<Description>Digital line DO1 on the myRIO-1900 in Connector C.</Description>
 				<Category>Output\Digital</Category>
 				<Symbol>DO</Symbol>
 			</Boolean>
 			<Boolean>
 				<Name>DO2</Name>
-				<Description>Digital line DO2 on the NI-9474 in slot 4.</Description>
+				<Description>Digital line DO2 on the myRIO-1900 in Connector C.</Description>
 				<Category>Output\Digital</Category>
 				<Symbol>DO</Symbol>
 			</Boolean>
 			<Boolean>
 				<Name>DO3</Name>
-				<Description>Digital line DO3 on the NI-9474 in slot 4.</Description>
+				<Description>Digital line DO3 on the myRIO-1900 in Connector C.</Description>
+				<Category>Output\Digital</Category>
+				<Symbol>DO</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DO4</Name>
+				<Description>Digital line DO4 on the myRIO-1900 in Connector C.</Description>
+				<Category>Output\Digital</Category>
+				<Symbol>DO</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DO5</Name>
+				<Description>Digital line DO5 on the myRIO-1900 in Connector C.</Description>
+				<Category>Output\Digital</Category>
+				<Symbol>DO</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DO6</Name>
+				<Description>Digital line DO6 on the myRIO-1900 in Connector C.</Description>
+				<Category>Output\Digital</Category>
+				<Symbol>DO</Symbol>
+			</Boolean>
+			<Boolean>
+				<Name>DO7</Name>
+				<Description>Digital line DO7 on the myRIO-1900 in Connector C.</Description>
 				<Category>Output\Digital</Category>
 				<Symbol>DO</Symbol>
 			</Boolean>
