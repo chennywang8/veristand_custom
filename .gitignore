@@ -1,2 +1,4 @@
 *.lvlps
 FPGA/myRIO-1900/FPGA Bitfiles/
+.metadata/
+linux_model/.settings/
