@@ -1,0 +1,190 @@
+[Workspace Header]
+Version = 1900
+Pathname = "/c/Dev/veristand_custom/cvi/cavallino.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2019"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2019"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "cavallino.prj"
+Drag Bar Left = 238
+Window Top = 64
+Window Left = 657
+Window Bottom = 566
+Window Right = 1447
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 5
+Window Confinement Region Enabled = True
+MainColumnWidth = 221
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1900
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/c/Dev/veristand_custom/cvi/source/model.c"
+File Type = "CSource"
+Disk Date = 3669578659
+In Projects = "1,"
+Source Window State = "1,228,228,228,2,2,2,0,0,0,0,0,0,0,0,0,375,0,228,2,401,735,1,0,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 3
+
+[File 0002]
+Path = "/c/Dev/veristand_custom/cvi/source/ni_modelframework.c"
+File Type = "CSource"
+Disk Date = 3658838086
+In Projects = "1,"
+Source Window State = "1,322,322,322,2,2,2,0,0,0,0,0,0,0,0,0,302,0,322,2,401,735,1,0,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 2
+
+[File 0003]
+Path = "/c/Dev/veristand_custom/cvi/source/template.c"
+File Type = "CSource"
+Disk Date = 3658838086
+In Projects = "1,"
+Source Window State = "1,34,34,34,33,33,33,0,0,0,0,0,0,0,0,0,34,0,34,33,401,735,1,0,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 5
+
+[File 0004]
+Path = "/c/Dev/veristand_custom/cvi/include/model.h"
+File Type = "Include"
+Disk Date = 3669578547
+In Projects = "1,"
+Source Window State = "1,44,44,44,19,19,19,0,0,0,0,0,0,0,0,0,0,0,44,19,401,735,1,0,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 4
+
+[File 0005]
+Path = "/c/Dev/veristand_custom/cvi/include/ni_modelframework.h"
+File Type = "Include"
+Disk Date = 3658838086
+In Projects = "1,"
+Source Window State = "1,35,35,35,16,26,16,0,3,0,0,0,0,0,0,0,0,0,35,26,400,600,0,0,"
+Window Z-Order = 1
+
+[Tab Order]
+Tab 0001 = "/c/Dev/veristand_custom/cvi/source/model.c"
+Tab 0002 = "/c/Dev/veristand_custom/cvi/source/template.c"
+Tab 0003 = "/c/Dev/veristand_custom/cvi/source/ni_modelframework.c"
+Tab 0004 = "/c/Dev/veristand_custom/cvi/include/model.h"
+Tab 0005 = "/c/Dev/veristand_custom/cvi/include/ni_modelframework.h"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+

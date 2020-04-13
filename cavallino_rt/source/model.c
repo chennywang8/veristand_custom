@@ -1,9 +1,23 @@
-/* Include headers */
+//==============================================================================
+//
+// Title:		model.c
+// Purpose:		A short description of the implementation.
+//
+// Created on:	4/12/2020 at 2:33:20 PM by Chenny Wang.
+// Copyright:	. All Rights Reserved.
+//
+//==============================================================================
+
+//==============================================================================
+// Include files
 #include "ni_modelframework.h"
 #include "model.h"
 #include <stddef.h>
 #include <math.h>
 
+
+//==============================================================================
+// Constants
 /* User defined datatypes and constants */
 #define rtDBL	0
 #define rtINT	1
@@ -18,6 +32,8 @@ extern int32_t READSIDE;
    !!!! IMPORTANT !!!! */
 #define readParam rtParameter[READSIDE]
 
+//==============================================================================
+// Types
 /* Define IO and Signals structs */
 typedef struct {
 	double command_RPM;
@@ -43,6 +59,17 @@ Signals rtSignal;
 
 #define MAXIMUM( x, y) ((x)>(y)?(x):(y))
 
+//==============================================================================
+// Static global variables
+
+//==============================================================================
+// Static functions
+
+//==============================================================================
+// Global variables
+
+//==============================================================================
+// Global functions
 /* INPUT: ptr, base address of where value should be set.
    INPUT: subindex, offset into ptr where value should be set.
    INPUT: value, the value to be set
