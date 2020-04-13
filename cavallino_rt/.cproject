@@ -46,14 +46,14 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.293748601" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
 								<option id="gnu.c.link.option.ldflags.1183833311" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="--sysroot=&quot;C:\build\17.0\arm\sysroots\cortexa9-vfpv3-nilrt-linux-gnueabi&quot;" valueType="string"/>
-								<option defaultValue="true" id="gnu.c.link.option.shared.1956407962" superClass="gnu.c.link.option.shared" valueType="boolean"/>
+								<option defaultValue="true" id="gnu.c.link.option.shared.1956407962" name="Shared (-shared)" superClass="gnu.c.link.option.shared" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.848809493" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1511078284" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
-								<option defaultValue="true" id="gnu.cpp.link.option.shared.449704932" superClass="gnu.cpp.link.option.shared" valueType="boolean"/>
+								<option defaultValue="true" id="gnu.cpp.link.option.shared.449704932" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" valueType="boolean"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1984577446" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.715402669" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
